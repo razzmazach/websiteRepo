@@ -20,7 +20,8 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: lightgrey;
+    background-color: white;
+    border-radius:5px;
 }
 
 li a {
@@ -35,7 +36,19 @@ li a:hover {
     color: white;
 }
 
+li a.active {
+    background-color:green;
+    color: white;
+}
+  
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+img{
+    padding:10px;
+}
 p {
-    max-width: 900px
-    margin: auto
+   
 }
