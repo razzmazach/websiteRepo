@@ -11,6 +11,17 @@ div {max-width:900px;
     font-family: sans-serif
 }
 
+div.epicPan{
+    color:greenyellow;
+    border:none;
+    margin:none;
+    background-image: url("IMG_E0174.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+    background-size: 140%;
+}
+
 h1,h2,h3,h4,h5{
     color: orange
 }
